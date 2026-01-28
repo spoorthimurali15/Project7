@@ -4,7 +4,7 @@ terraform {
 
     aws = {
 
-      source  = "hashicorp/aws"
+      source = "hashicorp/aws"
 
       version = "~> 5.0"
 
@@ -34,7 +34,7 @@ resource "aws_s3_bucket" "example" {
 
   bucket = "spoorthi-terraform-ci-demo"
 
-  acl    = "private"
+  acl = "private"
 
 }
 
